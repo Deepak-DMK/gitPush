@@ -15,7 +15,7 @@ public class GitPushApplication {
 	
 	@GetMapping("/message")
 	public String getData() {
-		return "Hi Deepak";
+		return "Hi Deepak, it's latest change";
 	}
 
 }
